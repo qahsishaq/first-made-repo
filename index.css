@@ -3,29 +3,42 @@
 *::after {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
-.listed-things {
-  /* padding-left: 300px; */
+html{
+  font-size: 16px;
 }
-.play {
+.first-section{
+  height: 100vh;
+}
+
+.nav-link, .dropdown-item{
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.39s ease;
+}
+
+
+.nav-link:hover, .dropdown-item:hover{
+    color: #198754;
+}
+.play-button{
   border-radius: 50%;
 }
 .soft {
-  width: 39px;
-  align-items: center;
+ width: 3rem;
+  height: 3rem; 
   display: flex;
   background-color: white;
-}
-.play {
-  margin-bottom: 8px;
-  width: 40px;
-  border-color: white;
-  margin-left: 6px;
-  margin-top: 4px;
-  width: 20px;
   align-items: center;
   justify-content: center;
 }
 .first-section {
   background-color: #e4f5eb;
+}
+.container h2 span{
+  color:#198754;
+  font-weight: 600;
+  text-transform: uppercase;
 }
